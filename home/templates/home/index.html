@@ -1,3 +1,20 @@
-{% extends "base.html" %} {% load static %} {% block content %}
-<h1 class="display-4 text-success">It works!</h1>
-{% endblock %}
+{% extends "base.html" %} {% load static %} <br />
+
+{% block page_header %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
+{% endblock %} <br />
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col">Paintings</div>
+    <div class="col">Jewlery</div>
+    <div class="col">Functional art</div>
+    <div class="col">Sculptures</div>
+  </div>
+  {% endblock %}
+</div>
