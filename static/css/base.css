@@ -21,11 +21,16 @@ body {
 
 .logo-font {
     text-transform: uppercase;
-
 }
 
 .main-logo-link {
     width: fit-content;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
 }
 
 .btn-black {
@@ -33,7 +38,9 @@ body {
     color: white;
 }
 
-
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
@@ -42,11 +49,15 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #000;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid black;
+}
+
+.bg-black {
+    background: #000;
 }
 
 /* -------------------------------- Media Queries */
